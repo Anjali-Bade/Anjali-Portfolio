@@ -1,0 +1,514 @@
+/* 
+------------------------------------my tril-------------------------------------------- */
+
+
+/* -------------------------------------------about----------------------------------------- */
+
+
+
+/* 
+--------------------------------------------------------my tril skil-------------------------------------------------------------- */
+
+
+#services{
+    padding:70px 0;
+}
+.services-list{
+    display:grid;
+    grid-template-columns:repeat(auto-fit, minmax(250px,1fr));
+    grid-gap:40px;
+    margin-top:50px;
+}
+
+.para2{
+    font-size:20px;
+    display:unset;
+}
+.hackerank{
+    height:80px;
+    width:80px;
+}
+.techgig{
+    height:45px;
+    width:45px;
+}
+.Quize{
+    height:50px;
+    width:50px;
+}
+
+.services-list div{
+         background:#262626;
+         padding:70px;
+         font-size:13px;
+         font-weight: 300;
+         border-radius:10px;
+         transition:background 0.5s, transform 0.5s;
+}
+.services-list div h2{
+          font-size:35px;
+          font-weight:bold;
+          margin-bottom:20px;
+}
+.services-list div a{
+    text-decoration:none;
+    color:#fff;
+    font-size:12px;
+    margin-top:20px;
+    display:inline-block;
+}
+.services-list div:hover{
+    background: #ff004f;
+    transform:translateY(-10px);
+}
+
+.services-list{
+    color:white;
+}
+.services-list div h2{
+    color:white;
+}
+.sub-title{
+      color:white;
+      font-weight: bold;
+      font-size: 53px;;
+}
+
+
+/* ----------------------------------------------------------------my trile Achivement-------------------------------------------------- */
+
+
+
+
+
+.social-icons{
+    margin-top:30px;
+}
+.social-icons a{
+        text-decoration:none;
+        font-size:30px;
+        margin-right:15px;
+        color:#ababab;
+        display:inline-block;
+        transition:transform 0.5s;
+}
+.social-icons a:hover{
+    color:#ff004f;
+    transform: translateY(-5px);
+}
+.download{
+    height:70px;
+    width:70px;
+}
+div h3{
+    font-size:20px;
+
+}
+
+
+/* -----------------------------------------------------------------------------my trile contact-------------------------------------------------------------------- */
+
+
+
+
+
+
+/* /* ----------------------------------------------------------------------my trile msg -------------------------------------------------------------- */
+
+
+#msg{
+    color:#61b752;
+    margin-top:30px;
+    display:block;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* -----------------------------------------------------------------------main css------------------------------------------------------------- */
+
+:root {
+    --primary-color: #bd0e1d;
+    --secondary-color: rgb(22, 155, 227);
+    --accent-color: rgb(0, 0, 0);
+    --background-color: rgb(0, 0, 0);
+    --text-color: #333;
+    --white: #ffffff;
+    --transition: all 0.3s ease;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  
+}
+
+html {
+    scroll-behavior: smooth;
+    
+}
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    line-height: 1.6;
+    color: var(--text-color);
+    background-color: var(--background-color);
+    
+}
+
+/* Navbar Styles */
+.navbar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 5%;
+    background-color: var(--white);
+    box-shadow: 0 2px 10px rgba(10, 7, 7, 0.1);
+    z-index: 1000;
+    
+}
+
+.logo {
+    font-size: 3.5rem;
+    font-weight: bold;
+    color: var(--primary-color);
+}
+
+.nav-links {
+    display: flex;
+    align-items: center;
+    gap: 4rem;
+    
+    list-style: none;
+}
+
+.nav-links a {
+    text-decoration: none;
+    color: var(--text-color);
+    font-weight: 1000;
+    transition: var(--transition);
+    
+}
+
+.nav-links a:hover,
+.nav-links a.active {
+    color: var(--primary-color);
+    border-bottom: 2px solid rgb(0, 0, 0);
+    font-size: 24px;
+}
+
+.chat-btn {
+    padding: 0.5rem 1.5rem;
+    background: linear-gradient(to right, var(--primary-color), var(--secondary-color));
+    color: var(--white);
+    border: none;
+    border-radius: 25px;
+    font-size: 20px;
+    cursor: pointer;
+    transition: var(--transition);
+}
+
+.chat-btn:hover {
+    transform: translateY(-2px);
+    background-color: rgb(17, 10, 10);
+    /* box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2); */
+   
+}
+
+.menu-btn {
+    display: none;
+    cursor: pointer;
+    
+}
+
+.bar {
+    width: 25px;
+    height: 3px;
+    background-color: var(--text-color);
+    margin: 5px 0;
+    transition: var(--transition);
+    
+}
+
+/* Hero Section */
+.hero {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    min-height: 100vh;
+    padding: 5rem 5%;
+    gap: 2rem;
+    
+}
+
+.hero-content {
+    flex: 1;
+    max-width: 600px;
+    
+}
+
+.welcome-text {
+    font-size: 2.2rem;
+    color: var(--primary-color);
+    margin-bottom: 1rem;
+    color: #c7c7c7;
+    
+}
+
+.hero h1 {
+    font-size: 5.5rem;
+    margin-bottom: 1.5rem;
+    color: var(--text-color);
+    color: #ffffff;
+
+}
+
+.hero-description {
+    font-size: 2.0rem;
+    margin-bottom: 2rem;
+    color: #c7c7c7;
+}
+
+.cta-buttons {
+    display: flex;
+    gap: 1rem;
+    margin-bottom: 2rem;
+    
+}
+
+.btn {
+    padding: 0.8rem 2rem;
+    border-radius: 25px;
+    font-weight: 500;
+    cursor: pointer;
+    transition: var(--transition);
+    
+    text-decoration: none;
+}
+
+.primary-btn {
+    background: linear-gradient(to right, var(--primary-color), var(--secondary-color));
+    color: var(--white);
+    border: none;
+    
+}
+
+.secondary-btn {
+    background: var(--white);
+    color: var(--primary-color);
+    border: 2px solid var(--primary-color);
+    
+}
+
+.btn:hover {
+    transform: translateY(-2px);
+    /* box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2); */
+    background-color: black;
+}
+
+.social-links {
+    display: flex;
+    gap: 1rem;
+    
+}
+
+.social-icon {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    overflow: hidden;
+    transition: var(--transition);
+}
+
+.social-icon img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+
+}
+
+.social-icon:hover {
+    transform: translateY(-2px);
+}
+
+.hero-image {
+    flex: 1;
+    max-width: 500px;
+   
+   
+}
+
+.hero-image img {
+    width: 100%;
+    height:450px;
+    border-radius: 10px;
+    margin-top: 50px;
+    /* margin-left: 50%; */
+   
+}
+
+/* About Section */
+.about {
+    padding: 5rem 5%;
+   background-color: rgb(7, 3, 3);
+    /* background-color: var(--white); */
+
+font-size: 22px;
+}
+
+.about-content {
+    display: flex;
+    gap: 4rem;
+    align-items: center;
+   
+}
+
+.about-image {
+    width: 300px;
+    height: auto;
+   
+}
+
+.about-text {
+    flex: 1;
+    color: white;
+    /* font-size: 40px; */
+}
+
+.about h2 {
+    font-size: 2.5rem;
+    margin-bottom: 1.5rem;
+    color: var(--primary-color);
+}
+
+.tabs {
+    margin-top: 2rem;
+}
+
+.tab-buttons {
+    display: flex;
+    gap: 1rem;
+    margin-bottom: 1.5rem;
+}
+
+.tab-btn {
+    padding: 0.5rem 1.5rem;
+    background: none;
+    border: none;
+    color: var(--text-blue);
+    cursor: pointer;
+    font-size: 1rem;
+    position: relative;
+    font-weight: bold;
+}
+
+.tab-btn::after {
+    content: '';
+    position: absolute;
+    bottom: -2px;
+    left: 0;
+    width: 0;
+    height: 2px;
+    background-color: var(--primary-color);
+    transition: var(--transition);
+}
+
+.tab-btn.active::after {
+    width: 100%;
+}
+
+.tab-content {
+    display: none;
+}
+
+.tab-content.active {
+    display: block;
+}
+
+.tab-content ul {
+    list-style: none;
+}
+
+.tab-content li {
+    margin-bottom: 0.5rem;
+    padding-left: 1.5rem;
+    position: relative;
+}
+
+.tab-content li::before {
+    content: '•';
+    position: absolute;
+    left: 0;
+    color: var(--primary-color);
+}
+
+/* Contact Section */
+.contact {
+    padding: 5rem 5%;
+    background-color: var(--blue);
+
+}
+
+.contact h2 {
+    text-align: center;
+    font-size: 2.5rem;
+    margin-bottom: 2rem;
+    color: var(--primary-color);
+}
+
+.contact form {
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+.form-group {
+    margin-bottom: 1.5rem;
+}
+
+.form-group input,
+.form-group textarea {
+    width: 100%;
+    padding: 1rem;
+    border: 1px solid #b53b3b;
+    border-radius: 8px;
+    font-size: 1rem;
+    transition: var(--transition);
+}
+
+.form-group textarea {
+    height: 150px;
+    resize: vertical;
+}
+
+.form-group input:focus,
+.form-group textarea:focus {
+    outline: none;
+    border-color: var(--primary-color);
+    box-shadow: 0 0 0 2px rgba(159, 82, 82, 0.1);
+}
+
+/* Footer */
+footer {
+    text-align: center;
+    padding: 2rem;
+    background-color: var(--white);
+    color: var(--text-color);
+}
